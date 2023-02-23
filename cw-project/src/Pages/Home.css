@@ -1,0 +1,295 @@
+.thumImg{
+    /* border: 3px solid teal; */
+}
+.thumImg img{
+    /* border: 3px solid teal; */
+    width: 100%;
+   height: 700px;
+}
+
+.qoute-box{
+    
+    background: #171a26;
+    padding-top:50px ;
+    padding-bottom: 50px;
+    text-align: center;
+}
+.h1qoute{
+    font-family: sans-serif;
+    font-size: 40px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: normal;
+    color: white;
+    padding-top:30px ;
+}
+.qoute-box button{
+    margin-top: 40px;
+    background-color: aliceblue;
+    color: #f06055;
+    width: 200px;
+}
+
+.qoute-box-img{
+    margin: auto;
+    width: 2%;
+    margin-top: 20px;
+}
+.qoute-box-img img{
+    width: 100%;
+    
+}
+.sub-box{
+    width: 100%;
+    /* border: 3px solid red; */
+    background:#171a26 ;
+    padding-bottom: 100px;
+}
+
+.sub-box-child{
+    /* border: 3px solid teal; */
+    width: 70%;
+    margin: auto;
+    /* opacity: 5.00%; */
+    display: flex;
+    justify-content: space-around;
+}
+
+.sub-box-child-1 div{
+    width: 35%;
+    margin: auto;
+}
+.sub-box-child-1 >div>img{
+    width: 100%;
+}
+
+.sub-box-child-1{
+    /* padding: 30px 50px; */
+    padding-top: 30px;
+    padding-bottom: 20px;
+    border: 1px solid white;
+    background-color: #263035;
+    width: 30%;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+.sub-box-child-1 h1{
+    padding-top: 20px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.66);
+}
+
+.well-ness-box{
+    width: 100%;
+    background:#171a26 ;
+    /* border: 3px solid red; */
+    padding-bottom: 40px;
+}
+.well-ness-box-child{
+    width: 70%;
+    margin: auto;
+    background: #82a5f86f;
+    /* border: 3px solid blue; */
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+.well-ness-box-child-1{
+    /* border: 3px solid red; */
+    width: 35%;
+    /* margin-left: 5%; */
+    padding-top: 3%;
+}
+.well-ness-box-child-h1{
+    font-family: Inter-Bold, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+    font-size: 40px;
+    line-height: 60px;
+    text-align: left;
+    letter-spacing: 0.01px;
+    color: #ffffff;
+}
+
+.well-ness-box-child-h3{
+    font-family: sans-serif;
+    font-size: 20px;
+    line-height: 20px;
+    text-align: start;
+    letter-spacing: normal;
+    padding-top: 7px;
+    color: #ffffff;
+}
+
+.well-ness-box-child-btn{
+    /* border: 3px solid red; */
+    padding-left: 10%;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+.well-ness-box-child-btn button{
+    margin-bottom: 20px;
+    border: 2px solid #ffffff;
+    border-radius: 17PX;
+}
+
+.wellness-img-box-main{
+    /* border: 3px solid red; */
+    width: 55%;
+    padding-bottom: 20px;
+}
+
+.wellness-img-box-main-1{
+    /* border: 3px solid blue; */
+    width: 95%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.wellness-img-box-main-1 div{
+    /* border: 3px solid red; */
+    width: 49%;
+}
+.wellness-img-box-main-1 > div > img{
+    /* border: 3px solid red; */
+    width: 100%;
+    border-radius: 15px;
+    opacity: 90%;
+}
+
+.quote-cont{
+    width: 100%;
+    background-color: #171a26;
+    /* border: 3px solid red; */
+    padding-bottom: 40px;
+}
+.quote-cont-child{
+    width: 40%;
+    margin: auto;
+    /* border: 3px solid teal; */
+    background-image: url("https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_700,q_auto:eco,dpr_2,f_auto,fl_progressive//image/test/gradient-circle/golden-blur-circle.svg");
+    padding-bottom: 40px;
+    border-radius: 50px;
+}
+.quote-cont-child h1{
+    color: #ffffff;
+    text-align: center;
+    font-size: 20px;
+    opacity: 70%;
+    
+}
+
+.main-sub-div{
+    width: 100%;
+    background-color: #171a26;
+    padding-bottom: 30px;
+}
+.main-sub-div-1{
+    color: #ffffff;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+}
+.main-sub-div-2{
+    color: #2962FF;
+    text-align: center;
+    padding-top: 10px;
+}
+.main-sub-div-2:hover{
+    cursor: pointer;
+}
+
+.main-sub-div2{
+    width: 100%;
+    background-color: #171a26;
+    /* border: 3px solid red; */
+    padding-bottom: 70px;
+}
+.main-sub-div2-child{
+    width: 80%;
+    /* border: 3px solid teal; */
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-sub-div2-child-1{
+    width: 32%;
+    /* border: 3px solid red; */
+    text-align: start;
+    padding-bottom: 40px;
+    
+}
+.allh2{
+    /* border: 3px solid red; */
+    margin-top: 18px;
+    padding-left: 30px;
+}
+.main-sub-div2-child-1 h2{
+    color: #ffffff;
+    margin-top: 8px;
+    font-size: 18px;
+    opacity: 70%;
+}
+.main-sub-div2-child-1 h1{
+    color: #ffffff;
+    margin-top: 20px;
+    font-size: 22px;
+    line-height: 35px;
+    font-weight: 600;
+    opacity: 90%;
+    padding-left: 10px;
+}
+.main-sub-div2-child-btn{
+    margin-top: 70px;
+    padding-right: 50px;
+    /* border: 3px solid teal; */
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.main-sub-div2-child-btn button{
+    width: 150px;
+}
+.main-sub-div2-child-btn div{
+    width: 48%;
+    /* border: 3px solid red; */
+    margin-left: 20px;
+}
+.main-sub-div2-child-btn1 button{
+    background-color: #ffffff19;
+    opacity: 70%;
+    color: white;
+}
+.main-sub-div2-child-btn1 button:hover{
+    background-color: #ffffff19;
+    opacity: 100%;
+    color: white;
+}
+.main-sub-div2-child-btn2 button{
+    background-color: #ffffff   ;
+    opacity: 80%;
+    color: #f06055;
+}
+.main-sub-div2-child-btn2 button:hover{
+    background-color: #ffffff   ;
+    opacity: 80%;
+    color: black;
+}
+
+.main-sub-div2-child-1-lite{
+    width: 20%;
+    /* border: 3px solid red; */
+    margin: auto;
+    padding-top: 20px;
+}
+.main-sub-div2-child-1:hover{
+    cursor: pointer;
+    box-shadow: rgba(149, 145, 145, 0.467) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.wellness-img-box-main-1 div :hover{
+    box-shadow: rgba(157, 62, 62, 0) 0px 3px 6px, rgba(186, 5, 5, 0.23) 0px 3px 6px;
+    border: 1px solid teal;
+    cursor: pointer;
+}

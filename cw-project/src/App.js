@@ -1,10 +1,11 @@
-import Navbar from "./Compononent/Navbar";
-
+import Home from "./Pages/Home";
+import AllRoutes from "./Compononent/AllRouters";
 
 function App() {
   return (
     <div>
-     <Navbar />
+      <AllRoutes />
+      
     </div>
   );
 }
