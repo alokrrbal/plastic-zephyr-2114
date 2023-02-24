@@ -5,6 +5,8 @@ import Fitness from "../Pages/Fitness";
 import Care from "../Pages/Care";
 import Store from "../Pages/Store";
 import Mind from "../Pages/Mind";
+import Login from "../Pages/Login";
+import Signup from "../Pages/Signup";
 const AllRoutes = () =>{
     return(
         <div>
@@ -14,6 +16,8 @@ const AllRoutes = () =>{
                 <Route path="/Care" element={<Care/>}></Route>
                 <Route path="/Store" element={<Store/>}></Route>
                 <Route path="/Mind" element={<Mind/>}></Route>
+                <Route path="/login" element={<Login />}></Route>
+                <Route path="/signup" element={<Signup/>}></Route>
             </Routes>
         </div>
     )

@@ -1,0 +1,177 @@
+.fit-poster{
+    width: 100%;
+    background-image: url("https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_1600,q_auto:eco,dpr_1,f_auto,fl_progressive/image/vm/d6450490-ace2-45ad-aa8b-c898c78d2714.png");
+    height: 800px;
+    text-align: center;
+}
+.fit-poster button{
+    margin-top: 520px;
+    width: 130px;
+    background-color: #ffffff;
+    color: #f06055;
+    opacity: 80%;
+}
+.fit-poster button:hover{
+    color: black;
+    background-color: #ffffff;
+    opacity: 200%;
+}
+.sub-box-FIT{
+    width: 100%;
+    /* border: 3px solid red; */
+    /* background:#171a26 ; */
+    /* padding-bottom: 0px; */
+}
+
+.sub-box-child-FIT{
+    /* border: 3px solid teal; */
+    width: 65%;
+    margin: auto;
+    /* opacity: 5.00%; */
+    display: flex;
+    justify-content: space-around;
+    margin-top:50px ;
+}
+
+.sub-box-child-1-FIT div{
+    width: 40%;
+    margin: auto;
+}
+.sub-box-child-1-FIT >div>img{
+    width: 80%;
+}
+
+.sub-box-child-1-FIT{
+    /* padding: 30px 50px; */
+    padding-top: 30px;
+    padding-bottom: 20px;
+    border: 1px solid white;
+    background-color: #19264685;
+    width: 40%;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+.sub-box-child-1-FIT h1{
+    padding-top: 20px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.66);
+}
+
+.trainer-group-box{
+    width: 100%;
+    background-color: #15171c;
+}
+.trainer-group-box-h1-1{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 22px;
+    line-height: 35px;
+    color: #ffffff;
+    padding-top: 50px;
+}
+.trainer-group-box-h1-2{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 50px;
+    line-height: 60px;
+    color: #ffffff;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.trainer-group-box-img-main{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    justify-content: space-between;
+    margin-top: 70px;
+    padding-bottom: 80px;
+    opacity: 80%;
+}
+
+.trainer-group-box-img-main div{
+    width: 70%;
+}
+.trainer-group-box-img-main div >img{
+    width: 88%;
+    border-radius: 10px;
+}
+.trainer-group-box-img-main div  :hover{
+    opacity: 500%;
+    cursor: pointer;
+    border: 2px solid #ffffff;
+}
+
+.at-home-main{
+    width: 100%;
+    background-color: #15171c;
+}
+
+.at-home-main-child{
+    /* border: 3px solid red; */
+    width: 80%;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    padding-bottom: 100px;
+}
+.at-home-main-child div{
+    width: 100%;
+    /* border: 3px solid teal; */
+    
+}
+.at-home-main-child-1{
+    /* border: 3px solid teal; */
+    margin-left: 20px;
+    text-align: center;
+    background-color: #2d3745;
+    padding-bottom: 20px;
+    border-radius: 15px;
+}
+
+.at-home-main-child-1-name{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 14px;
+    line-height: 22px;
+    color: #ffffff;
+    padding-top: 20px;
+    opacity: 70%;
+}
+
+.at-home-main-child-1-titel{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 22px;
+    line-height: 35px;
+    color: #ffffff;
+    padding-top: 10px;
+    opacity: 90%;
+}
+
+.at-home-main-child-1-titel2{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 14px;
+    line-height: 22px;
+    color: #ffffff;
+    padding-top: 10px;
+    opacity: 70%;
+}
+.at-home-main-child-1  button{
+    background-color: gray;
+    margin-top: 15px;
+    width: 90px;
+    height: 30px;
+    opacity: 40%;
+    color: #ffffff;
+}
+
+.at-home-main-child-1 button:hover{
+    color: #ffffff;
+    background-color: gray;
+    opacity: 1000%;
+}
+.at-home-main-child-1 :hover{
+    border: 2px solid white;
+}

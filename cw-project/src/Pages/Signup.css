@@ -1,0 +1,96 @@
+.sign-main{
+    /* border: 3px solid red; */
+    height: 100vh;
+    background-color: #171a26;
+}
+
+.sign-main-child{
+    /* border: 3px solid teal; */
+    width: 25%;
+    margin: auto;
+    margin-top: 30px;
+    height: 75vh;
+    /* background-color: hsla(0, 0%, 0%, 0.227); */
+    background-image: url("https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_700,q_auto:eco,dpr_1,f_auto,fl_progressive//image/test/gradient-circle/aqua-blur-circle.svg");
+    border: 1px solid #ffff;
+    border-radius: 10px;
+    opacity: 70%;
+}
+.sign{
+    color: aliceblue;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.signimg{
+    /* border:  3px solid red; */
+    width: 20%;
+    margin: auto;
+    margin-top: 30px;
+}
+
+form{
+    color: white;
+}
+.sign-inpu{
+   margin-bottom: 40px;
+   margin-left: 40px;
+}
+.sign-inpu2{
+   margin-bottom: 30px;
+   margin-left: 18px;
+}
+.signformbox{
+    margin-left: 30px;
+    /* border: 3px solid red; */
+    text-align: center;
+    margin: auto;
+    margin-top: 40px;
+}
+.sign-tandc{
+    /* border: 3px solid red; */
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;
+}
+.sign-tcsp{
+    color: #ffff;
+    opacity: 90%;
+}
+.sign-tcsp1{
+    color: #ffff;
+    opacity: 50%;
+}
+
+.sign-formbtn{
+    
+    width: 150px;
+    height: 35px;
+    background-color: aliceblue;
+    color: black;
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    opacity: 80%;
+    border-radius: 20px;
+}
+
+.sign-formbtn:hover{
+    opacity: 200%;
+}
+.sign-logobox{
+    /* border: 3px solid red; */
+    width: 30%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.log-btn{
+    /* border: 3px solid red; */
+    width: 60px;
+    text-align: center;
+    color: red;
+    margin: auto;
+    margin-top: 10px;
+}

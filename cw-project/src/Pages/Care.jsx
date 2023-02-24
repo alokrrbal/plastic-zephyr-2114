@@ -5,6 +5,7 @@ const Care = () =>{
         <>
             <Navbar/>
             <h1>This is CARE Page</h1>
+            <img src="https://i.ibb.co/8xRKbRS/IMG-20230222-204641-510.jpg" alt="" />
         </>
     )
 }

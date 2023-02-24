@@ -1,0 +1,94 @@
+.login-main{
+    /* border: 3px solid red; */
+    height: 100vh;
+    background-color: #171a26;
+}
+
+.login-main-child{
+    /* border: 3px solid teal; */
+    width: 25%;
+    margin: auto;
+    margin-top: 30px;
+    height: 68vh;
+    /* background-color: hsla(0, 0%, 0%, 0.227); */
+    background-image: url("https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_700,q_auto:eco,dpr_1,f_auto,fl_progressive//image/test/gradient-circle/pink-blur-circle.svg");
+    border: 1px solid #ffff;
+    border-radius: 10px;
+    opacity: 80%;
+}
+.log{
+    color: aliceblue;
+    text-align: center;
+    padding-top: 120px;
+}
+
+.loginimg{
+    /* border:  3px solid red; */
+    width: 20%;
+    margin: auto;
+    margin-top: 30px;
+}
+
+form{
+    color: white;
+}
+.inpu{
+   margin-bottom: 40px;
+   margin-left: 40px;
+}
+.inpu2{
+   margin-bottom: 30px;
+   margin-left: 18px;
+}
+.formbox{
+    margin-left: 30px;
+    /* border: 3px solid red; */
+    text-align: center;
+    margin: auto;
+    margin-top: 40px;
+}
+.tandc{
+    /* border: 3px solid red; */
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    margin-top: 40px;
+}
+.tcsp{
+    color: #ffff;
+    opacity: 90%;
+}
+.tcsp1{
+    color: #ffff;
+    opacity: 50%;
+}
+
+.formbtn{
+    width: 150px;
+    height: 35px;
+    background-color: aliceblue;
+    color: black;
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    opacity: 80%;
+    border-radius: 20px;
+}
+
+.formbtn:hover{
+    opacity: 1000%;
+}
+/* .logobox{
+    border: 3px solid red;
+    width: 30%;
+    margin: auto;
+    margin-top: 0px;
+} */
+
+.sign-btn{
+    /* border: 3px solid red; */
+    width: 20%;
+    color: #0D47A1;
+    margin: auto;
+    margin-top: 10px;
+}

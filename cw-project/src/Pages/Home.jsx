@@ -1,5 +1,6 @@
 import Navbar from "../Compononent/Navbar"
 import Footer from "../Compononent/Footer"
+
 import { Button ,ButtonGroup } from '@chakra-ui/react'
 
 
@@ -168,6 +169,8 @@ function Home(){
 
 
        <Footer />
+
+       
         </>
     )
 }
