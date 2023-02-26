@@ -7,6 +7,9 @@ import Store from "../Pages/Store";
 import Mind from "../Pages/Mind";
 import Login from "../Pages/Login";
 import Signup from "../Pages/Signup";
+import Admin from "../Pages/Admin";
+import PrivateAdminRoute from "../Pages/PrivateAdminRoute";
+import { AdminLogin } from "../Pages/AdminLogin";
 const AllRoutes = () =>{
     return(
         <div>
@@ -18,6 +21,8 @@ const AllRoutes = () =>{
                 <Route path="/Mind" element={<Mind/>}></Route>
                 <Route path="/login" element={<Login />}></Route>
                 <Route path="/signup" element={<Signup/>}></Route>
+                <Route path="/adminlogin" element={<AdminLogin/>}></Route>
+                <Route path="/admin" element={<PrivateAdminRoute><Admin/></PrivateAdminRoute>}></Route>
             </Routes>
         </div>
     )

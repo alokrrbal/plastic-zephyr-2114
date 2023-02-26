@@ -4,8 +4,9 @@ import AllRoutes from "./Compononent/AllRouters";
 function App() {
   return (
     <div>
+  
       <AllRoutes />
-      
+    
     </div>
   );
 }

@@ -1,0 +1,114 @@
+.store-thum{
+    width: 100%;
+    /* border: 3px solid red; */
+    height: 350px;
+    background-color: #171a26;
+}
+
+.store-thum div{
+    padding-top: 132px;
+}
+.t-shirt-main{
+    background-color: #171a26;
+    /* border: 3px solid red; */
+    width: 100%;
+    height: auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    
+}
+.t-shirt-titel{
+    color: aliceblue;
+    text-align: start;
+    margin-top: 50px;
+    font-family: Poppins-Bold, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+    font-size: 30px;
+    line-height: 30px;
+    margin-left: 100px;
+    opacity: 90%;
+    font-style: italic;
+}
+.tShirt{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    /* border: 3px solid teal; */
+    width: 90%;
+    margin: auto;
+    gap: 30px;
+    align-items: center;
+    padding-left: 50px;
+    margin-top: 50px;
+}
+.tshirtBox{
+    /* border: 3px solid red; */
+    width: 100%;
+
+    box-shadow: rgba(255, 253, 253, 0.538) 0px 3px 8px;
+    border-radius: 2%;
+    opacity: 90%;
+    
+}
+.tshirt-img{
+    /* border: 3px solid blue; */
+    width: 100%;
+    opacity: 90%;
+}
+.tshirt-name{
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 20px;
+    text-align: start;
+    /* border: 2px solid teal; */
+    margin-top: 20px;
+    opacity: 70%;
+}
+.t-shirt-price{
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 20px;
+    text-align: start;
+    /* border: 2px solid teal; */
+    opacity: 95%;
+}
+
+.tshirtpricediv{
+    /* border: 3px solid rebeccapurple; */
+    width: 95%;
+    margin: auto;
+    margin-top: 20px;
+}
+.t-shirt-orprice{
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 20px;
+    text-align: start;
+    /* border: 2px solid teal; */
+    opacity: 70%;
+    margin-left: 20px;
+    text-decoration: line-through;
+}
+.t-shirt-off{
+    color: #ff3278;
+    font-size: 18px;
+    line-height: 20px;
+    text-align: start;
+    /* border: 2px solid teal; */
+    opacity: 100%;
+    margin-left: 20px;
+}
+.tshirtBox button{
+    height: 30px;
+    width: 90px;
+    opacity: 90%;
+}
+
+.tshirtbtn{
+    /* border: 3px solid red; */
+    width: 40%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.tshirt-img img{
+    border-radius: 10px;
+}

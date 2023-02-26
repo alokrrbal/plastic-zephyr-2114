@@ -1,0 +1,188 @@
+
+.admin-main{
+    width: 100%;
+    height: 100vh;
+    background-color: #15171c;
+}
+
+.admin-main-TIT{
+    color: aliceblue;
+    padding-top: 50px;
+    font-family: Poppins-Bold, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+    font-size: 30px;
+    line-height: 30px;
+    text-align: center;
+    opacity: 90%;
+    font-style: italic;
+}
+.admin-main-child{
+    /* border: 2px solid red; */
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    padding: 30px;
+    box-shadow: rgba(239, 233, 233, 0.929) 0px 5px 15px;
+    background-color: #575b662c;
+    border-radius: 20px;
+}
+.admin-main-child1{
+    border: 1px solid teal;
+    height: 500px;
+    width: 20%;
+    background-image: url("https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_700,q_auto:eco,dpr_1,f_auto,fl_progressive//image/test/gradient-circle/pink-blur-circle.svg");
+    border-radius: 10PX;
+    
+}
+.admin-main-child2{
+    
+    /* border: 1px solid teal; */
+    height: 500px;
+    width: 90%;
+    margin-left: 100px;
+    opacity: 70%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+.admin-main-child1-img{
+    /* border: 2px solid red; */
+    width: 70%;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    height: auto;
+    opacity: 70%;
+}
+
+.admin-main-child1-btn{
+    /* border: 2px solid red; */
+    width: 70%;
+    margin: auto;
+    margin-top: 0px;
+    text-align: center;
+}
+
+
+/* .admin-main-child1-btn{
+    border: 3px solid red;
+    padding-left: 10%;
+    padding-top: 40px;
+    padding-bottom: 20px;
+} */
+.admin-main-child1-btn button{
+    margin-bottom: 20px;
+    border: 2px solid #ffffff;
+    border-radius: 17PX;
+    color: #ffffff;
+    opacity: 70%;
+}
+
+.admin-main-child1-btn button:hover{
+    color: black;
+}
+
+.admin-main-child2-addtshirt{
+    border: 0.5px solid teal;
+    width: 55%;
+    height: auto;
+    background-image: url("https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_700,q_auto:eco,dpr_1,f_auto,fl_progressive//image/test/gradient-circle/aqua-blur-circle.svg");
+    opacity: 80%;
+    border-radius: 10px;
+    padding-left: 15px;
+}
+.admin-main-child2-dlttshirt{
+    border: 0.5px solid teal;
+    width: 40%;
+    height: auto;
+    background-image: url("https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_700,q_auto:eco,dpr_1,f_auto,fl_progressive//image/test/gradient-circle/pink-blur-circle.svg");
+    opacity: 90%;
+}
+.admin-main-child2-addtshirt-TIT{
+    color: aliceblue;
+    text-align: center;
+    margin-top: 20px;
+    font-family: Poppins-Bold, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+    opacity: 90%;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+.TSHIRT-inpu{
+    margin-bottom: 30px;
+   margin-left: 50px;
+}
+.TSHIRT-inpu-OR{
+    margin-bottom: 30px;
+   margin-left: 20px;
+}
+.TSHIRT-inpu-OFF{
+    margin-bottom: 30px;
+   margin-left: 65px;
+}
+.Add-tshirt-form-box{
+    /* border: 3px solid teal; */
+    width: 95%;
+    margin: auto;
+}
+.TSHIRT-formbtn{
+    width: 150px;
+    height: 35px;
+    background-color: aliceblue;
+    color: black;
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    opacity: 80%;
+    border-radius: 20px;
+    text-align: center;
+}
+.TSHIRT-formbtn-div{
+    /* border: 3px solid red; */
+    width: 40%;
+    margin: auto;
+}
+.TSHIRT-formbtn:hover{
+    opacity: 200%;
+}
+.TSHIRT-inpu-img{
+    margin-bottom: 30px;
+   margin-left: 45px;
+}
+
+.dlt-tshirt-form-box{
+    width: 95%;
+    margin: auto;
+    /* border: 3px solid red; */
+    margin-top: 70px;
+    text-align: center;
+}
+
+.TSHIRT-dlt{
+    margin-bottom: 30px;
+   /* margin-left: 50px; */
+   margin-top: 30px;
+}
+
+.TSHIRT-formbtn-dlt{
+    width: 150px;
+    height: 35px;
+    background-color: aliceblue;
+    color: black;
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    opacity: 80%;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.TSHIRT-formbtn-dlt:hover{
+    opacity: 200%;
+}
+.TSHIRT-formbtn-div-dlt{
+    width: 40%;
+    margin: auto;
+    margin-top: 175px;
+}

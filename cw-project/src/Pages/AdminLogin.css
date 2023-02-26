@@ -1,0 +1,56 @@
+.adminlogin{
+    /* width: 100%; */
+    background-color: #171a26;
+    height: 100vh;
+    padding-top: 100px;
+}
+.adminlogin-child{
+    width: 25%;
+    margin: auto;
+    /* margin-top: 30px; */
+    height: 50vh;
+    /* background-color: hsla(0, 0%, 0%, 0.227); */
+    background-image: url("https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_700,q_auto:eco,dpr_1,f_auto,fl_progressive//image/test/gradient-circle/pink-blur-circle.svg");
+    border: 1px solid #ffff;
+    border-radius: 10px;
+    opacity: 60%;
+    text-align: center;
+}
+.adminlogintit{
+    color: aliceblue;
+    text-align: start;
+    font-family: Poppins-Bold, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+    font-size: 30px;
+    line-height: 30px;
+    text-align: center;
+    opacity: 90%;
+    font-style: italic;
+    padding-bottom: 30px;
+}
+
+.admin-formbtn{
+    width: 150px;
+    height: 35px;
+    background-color: aliceblue;
+    color: black;
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    opacity: 80%;
+    border-radius: 20px;
+}
+
+.Admininpu{
+    margin-bottom: 40px;
+   margin-left: 40px;
+   width: 100px;
+}
+.adminlogin-child form{
+    /* border: 3px solid red; */
+    padding-top: 100px;
+}
+.Admininpu2{
+    margin-bottom: 40px;
+   margin-left: 50px;
+   width: 100px;
+}

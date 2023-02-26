@@ -1,9 +1,61 @@
 import Navbar from "../Compononent/Navbar"
 import Footer from "../Compononent/Footer"
+import { useEffect , useState} from "react"
+import axios from "axios"
 import { Image , Input  } from "@chakra-ui/react"
 import { NavLink } from "react-router-dom"
 import './Signup.css'
+
+// const inputsignupdata=[]
+
+
+
 export default function Signup(){
+
+    const [signupData , setSignupData] = useState({
+        name:"",
+        email:"",
+        password:""
+    })
+
+
+    const {name , email , password} = signupData;
+
+
+    const handelOnchangesign =(e)=>{
+        const {name,value,type} = e.target;
+
+        const val = value
+
+        setSignupData({...signupData , [name]:val})
+    }
+
+    const handelsignsubmit = (e)=>{
+        e.preventDefault()
+        // console.log(signupData)
+        handelRegister(signupData)
+    }
+
+    const handelRegister =(signupData)=>{
+        axios({
+            method:"post",
+            url:"http://localhost:8080/registerData",
+            data:signupData
+
+        })
+        .then(()=>{
+            // InputRef.current.value=null
+            alert("Signup Successfully")
+            window.location.href='./Login'
+            setSignupData(
+                {
+                    name:"",
+                    email:"",
+                    password:""
+                }
+            )
+        })
+    }
     return(
         <>
         <Navbar/>
@@ -22,17 +74,20 @@ export default function Signup(){
                     /></div>
 
                 <div className='signformbox'>
-                    <form >
+                    <form onSubmit={handelsignsubmit}>
                         <label>
-                            Name <Input variant='outline' placeholder='Enter Your Email' width='70%' className='sign-inpu' />
+                            Name <Input variant='outline' placeholder='Enter Your Email' width='70%' className='sign-inpu' name="name" value={name}
+                            onChange={handelOnchangesign} />
                         </label>
                         <br />
                         <label>
-                            E-mail <Input variant='outline' placeholder='Enter Your Email' width='70%' className='sign-inpu' />
+                            E-mail <Input variant='outline' placeholder='Enter Your Email' width='70%' className='sign-inpu' name="email" 
+                            value={email} onChange={handelOnchangesign}/>
                         </label>
                         <br />
                         <label>
-                            Password <Input variant='outline' placeholder='Enter Your Password' width='70%' className='sign-inpu2' />
+                            Password <Input variant='outline' placeholder='Enter Your Password' width='70%' className='sign-inpu2' 
+                            name="password" value={password} onChange={handelOnchangesign}/>
                         </label>
                         <button className='sign-formbtn'>SIGN-UP</button>
                     </form>
@@ -54,3 +109,13 @@ export default function Signup(){
         </>
     )
 }
+
+// export const Authcontext = createContext();
+
+// export const AuthcontextProvider = ({children})=>{
+//     return(
+//         <AuthcontextProvider value={{inputsignupdata}}>
+//             {children}
+//         </AuthcontextProvider>
+//     )
+// }

@@ -1,121 +1,172 @@
-// [
-//     {
-//         "name":"Textured Performance Tshirt",
-//         "price":609,
-//         "orginalPrice":999,
-//         "img":"https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_300,h_400,ar_0.75,c_fill,q_70/dpr_1.5/cultgear-content/hr6uD1dJCHmmghCCKNYxgT6e",
-//         "off":"39 % OFF"
-//     },
-//     {
-//         "name":"Halftone Print Tshirt",
-//         "price":731,
-//         "orginalPrice":1199,
-//         "img":"https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_300,h_400,ar_0.75,c_fill,q_70/dpr_1.5/cultgear-content/3US9u8J7UnaZV8i9DK8CDMHa",
-//         "off":"33 % OFF"
-//     },
-//     {
-//         "name":"Matrix Graphic Tshirt",
-//         "price":815,
-//         "orginalPrice":1599,
-//         "img":"https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_300,h_400,ar_0.75,c_fill,q_70/dpr_1.5/cultgear-content/2LY5bDJPALHGU2s58ZyeMgKb",
-//         "off":"49 % OFF"
-//     },
-//     {
-//         "name":"Melange Graphic Tshirt",
-//         "price":670,
-//         "orginalPrice":1099,
-//         "img":"https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_300,h_400,ar_0.75,c_fill,q_70/dpr_1.5/cultgear-content/LN7LtFatT8uQTDEh67EA8Ldm",
-//         "off":"39 % OFF"
-//     },
-//     {
-//         "name":"Textured Pro Tshirt",
-//         "price":1180,
-//         "orginalPrice":1899,
-//         "img":"https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_300,h_400,ar_0.75,c_fill,q_70/dpr_1.5/cultgear-content/bt899VghvS87RxPCdeqDssDR",
-//         "off":"37 % OFF"
-//     },
-//     {
-//         "name":"Logo Pro Tshirt",
-//         "price":609,
-//         "orginalPrice":999,
-//         "img":"https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_300,h_400,ar_0.75,c_fill,q_70/dpr_1.5/cultgear-content/bosN4oiAvgN9CuiGygunnAMK",
-//         "off":"39 % OFF"
-//     },
-//     {
-//         "name":"Print Pro Tshirt",
-//         "price":733,
-//         "orginalPrice":1999,
-//         "img":"https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_300,h_400,ar_0.75,c_fill,q_70/dpr_1.5/cultgear-content/3US9u8J7UnaZV8i9DK8CDMHa",
-//         "off":"39 % OFF"
-//     },
-//     {
-//         "name":"Active Pro Tshirt",
-//         "price":670,
-//         "orginalPrice":1099,
-//         "img":"https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_300,h_400,ar_0.75,c_fill,q_70/dpr_1.5/cultgear-content/1P9HgY64niMKFCMX5H5UuNCq",
-//         "off":"39 % OFF"
-//     }
-// ]
-
-// [
-//     {
-//         "name":"UT 3001A26,Black Alloy",
-//         "price":13599,
-//         "orginalPrice":43999,
-//         "img":"https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_300,h_400,ar_0.75,c_fill,q_70/dpr_1.5/cultgear-content/92NHJ4vvG38RmGXsLxdQKnCJ",
-//         "off":"69 % OFF"
-//     },
-//     {
-//         "name":"UT 3003A26,Black Alloy MTB",
-//         "price":13499,
-//         "orginalPrice":47999,
-//         "img":"https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_300,h_400,ar_0.75,c_fill,q_70/dpr_1.5/cultgear-content/9v9sBNMay6wxih67ie1s6Qc4",
-//         "off":"71 % OFF"
-//     },
-//     {
-//         "name":"UT 3012A26,Black Alloy MTB",
-//         "price":13999,
-//         "orginalPrice":45990,
-//         "img":"https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_300,h_400,ar_0.75,c_fill,q_70/dpr_1.5/cultgear-content/yUFhM6bJRBeQTw27pDfUCLnF",
-//         "off":"69 % OFF"
-//     },
-//     {
-//         "name":"UT 3012A26,Black Alloy MTB",
-//         "price":1399,
-//         "orginalPrice":47000,
-//         "img":"https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_300,h_400,ar_0.75,c_fill,q_70/dpr_1.5/cultgear-content/gzmRX9u5sKFN4UoC6kLg5rZQ",
-//         "off":"70 % OFF"
-//     },
-    
-// ]
-
-[
+{
+  "tshirt": [
     {
-        "name":"Freak Raw Whey 80% Protin",
-        "price":1799,
-        "orginalPrice":2699,
-        "img":"https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_300,h_400,ar_0.75,c_fill,q_70/dpr_1.5/cultgear-content/DcaecB4PJ3kJKtDL18m4gzbA",
-        "off":"33 % OFF"
+      "name": "Textured Performance Tshirt",
+      "price": 609,
+      "orginalPrice": 999,
+      "img": "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_300,h_400,ar_0.75,c_fill,q_70/dpr_1.5/cultgear-content/hr6uD1dJCHmmghCCKNYxgT6e",
+      "off": "39 % OFF",
+      "id": 1
     },
     {
-        "name":"Freak E-lite Whey Isolate",
-        "price":3099,
-        "orginalPrice":4399,
-        "img":"https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_300,h_400,ar_0.75,c_fill,q_70/dpr_1.5/cultgear-content/VDxmyWjWBtLAsoecqfLURGkg",
-        "off":"29 % OFF"
+      "name": "Halftone Print Tshirt",
+      "price": 731,
+      "orginalPrice": 1199,
+      "img": "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_300,h_400,ar_0.75,c_fill,q_70/dpr_1.5/cultgear-content/3US9u8J7UnaZV8i9DK8CDMHa",
+      "off": "33 % OFF",
+      "id": 2
     },
     {
-        "name":"Freak Raw Whey 100% Protin",
-        "price":2499,
-        "orginalPrice":3499,
-        "img":"https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_300,h_400,ar_0.75,c_fill,q_70/dpr_1.5/cultgear-content/ZCAj47EBjCcrTqoJwp38Mvr5",
-        "off":"30 % OFF"
+      "name": "Matrix Graphic Tshirt",
+      "price": 815,
+      "orginalPrice": 1599,
+      "img": "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_300,h_400,ar_0.75,c_fill,q_70/dpr_1.5/cultgear-content/2LY5bDJPALHGU2s58ZyeMgKb",
+      "off": "49 % OFF",
+      "id": 3
     },
     {
-        "name":"Freak Preworkout",
-        "price":1249,
-        "orginalPrice":1700,
-        "img":"https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_300,h_400,ar_0.75,c_fill,q_70/dpr_1.5/cultgear-content/3vrJgyXYZEwJLqaXdtPXe1GA",
-        "off":"30 % OFF"
+      "name": "Melange Graphic Tshirt",
+      "price": 670,
+      "orginalPrice": 1099,
+      "img": "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_300,h_400,ar_0.75,c_fill,q_70/dpr_1.5/cultgear-content/LN7LtFatT8uQTDEh67EA8Ldm",
+      "off": "39 % OFF",
+      "id": 4
+    },
+    {
+      "name": "Textured Pro Tshirt",
+      "price": 1180,
+      "orginalPrice": 1899,
+      "img": "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_300,h_400,ar_0.75,c_fill,q_70/dpr_1.5/cultgear-content/bt899VghvS87RxPCdeqDssDR",
+      "off": "37 % OFF",
+      "id": 5
+    },
+    {
+      "name": "Logo Pro Tshirt",
+      "price": 609,
+      "orginalPrice": 999,
+      "img": "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_300,h_400,ar_0.75,c_fill,q_70/dpr_1.5/cultgear-content/bosN4oiAvgN9CuiGygunnAMK",
+      "off": "39 % OFF",
+      "id": 6
+    },
+    {
+      "name": "Print Pro Tshirt",
+      "price": 733,
+      "orginalPrice": 1999,
+      "img": "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_300,h_400,ar_0.75,c_fill,q_70/dpr_1.5/cultgear-content/3US9u8J7UnaZV8i9DK8CDMHa",
+      "off": "39 % OFF",
+      "id": 7
+    },
+    {
+      "name": "Active Pro Tshirt",
+      "price": 670,
+      "orginalPrice": 1099,
+      "img": "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_300,h_400,ar_0.75,c_fill,q_70/dpr_1.5/cultgear-content/1P9HgY64niMKFCMX5H5UuNCq",
+      "off": "39 % OFF",
+      "id": 8
+    },
+    {
+      "name": "Vitals Running T-Shirt",
+      "price": 1071,
+      "orginalPrice": 1599,
+      "img": "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_300,h_400,ar_0.75,c_fill,q_70/dpr_1.5/cultgear-content/GDmAFq6WZLD9omKo6TuMGyZp",
+      "off": "33% OFF",
+      "id": 9
+    },
+    {
+      "name": "alok",
+      "price": "",
+      "orginalPrice": "",
+      "img": "",
+      "off": "",
+      "id": 10
+    },
+    {
+      "name": "cv",
+      "price": "",
+      "orginalPrice": "",
+      "img": "",
+      "off": "",
+      "id": 11
     }
-]
+  ],
+  "cycle": [
+    {
+      "name": "UT 3001A26,Black Alloy",
+      "price": 13599,
+      "orginalPrice": 43999,
+      "img": "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_300,h_400,ar_0.75,c_fill,q_70/dpr_1.5/cultgear-content/92NHJ4vvG38RmGXsLxdQKnCJ",
+      "off": "69 % OFF"
+    },
+    {
+      "name": "UT 3003A26,Black Alloy MTB",
+      "price": 13499,
+      "orginalPrice": 47999,
+      "img": "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_300,h_400,ar_0.75,c_fill,q_70/dpr_1.5/cultgear-content/9v9sBNMay6wxih67ie1s6Qc4",
+      "off": "71 % OFF"
+    },
+    {
+      "name": "UT 3012A26,Black Alloy MTB",
+      "price": 13999,
+      "orginalPrice": 45990,
+      "img": "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_300,h_400,ar_0.75,c_fill,q_70/dpr_1.5/cultgear-content/yUFhM6bJRBeQTw27pDfUCLnF",
+      "off": "69 % OFF"
+    },
+    {
+      "name": "UT 3012A26,Black Alloy MTB",
+      "price": 1399,
+      "orginalPrice": 47000,
+      "img": "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_300,h_400,ar_0.75,c_fill,q_70/dpr_1.5/cultgear-content/gzmRX9u5sKFN4UoC6kLg5rZQ",
+      "off": "70 % OFF"
+    }
+  ],
+  "protin": [
+    {
+      "name": "Freak Raw Whey 80% Protin",
+      "price": 1799,
+      "orginalPrice": 2699,
+      "img": "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_300,h_400,ar_0.75,c_fill,q_70/dpr_1.5/cultgear-content/DcaecB4PJ3kJKtDL18m4gzbA",
+      "off": "33 % OFF"
+    },
+    {
+      "name": "Freak E-lite Whey Isolate",
+      "price": 3099,
+      "orginalPrice": 4399,
+      "img": "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_300,h_400,ar_0.75,c_fill,q_70/dpr_1.5/cultgear-content/VDxmyWjWBtLAsoecqfLURGkg",
+      "off": "29 % OFF"
+    },
+    {
+      "name": "Freak Raw Whey 100% Protin",
+      "price": 2499,
+      "orginalPrice": 3499,
+      "img": "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_300,h_400,ar_0.75,c_fill,q_70/dpr_1.5/cultgear-content/ZCAj47EBjCcrTqoJwp38Mvr5",
+      "off": "30 % OFF"
+    },
+    {
+      "name": "Freak Preworkout",
+      "price": 1249,
+      "orginalPrice": 1700,
+      "img": "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_300,h_400,ar_0.75,c_fill,q_70/dpr_1.5/cultgear-content/3vrJgyXYZEwJLqaXdtPXe1GA",
+      "off": "30 % OFF"
+    }
+  ],
+  "registerData": [
+    {
+      "name": "Alok",
+      "email": "alok@gmail.com",
+      "password": "123456",
+      "id": 1
+    },
+    {
+      "name": "Jayesh",
+      "email": "jayesh@gmail.com",
+      "password": "123456",
+      "id": 2
+    },
+    {
+      "name": "Alok2",
+      "email": "alok@gmail.com",
+      "password": "123456",
+      "id": 3
+    }
+  ]
+}

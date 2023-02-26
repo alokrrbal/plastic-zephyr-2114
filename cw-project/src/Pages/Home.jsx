@@ -1,5 +1,6 @@
 import Navbar from "../Compononent/Navbar"
 import Footer from "../Compononent/Footer"
+import { NavLink } from "react-router-dom"
 
 import { Button ,ButtonGroup } from '@chakra-ui/react'
 
@@ -49,9 +50,9 @@ function Home(){
                     <h1 className="well-ness-box-child-h1">Wellness HUB</h1>
                     <h3 className="well-ness-box-child-h3">One place for all your well-being needs</h3>
                     <div className="well-ness-box-child-btn">
-                        <Button  variant='outline'>
+                        <NavLink to="/Store"><Button  variant='outline'>
                             WORKOUT GEAR
-                        </Button>
+                        </Button></NavLink>
                         <br/>
                         <Button  variant='outline'>
                             LABS
